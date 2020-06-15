@@ -1,0 +1,27 @@
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	list-style: none;
+	padding-top: 20px;
+}
+ul#horizontal-list li {
+	display: inline;
+    float: left;
+    width: 25%;
+    padding: 10px;
+    padding-right: 15px;
+}
+
+ul#horizontal-list img{
+    width: 35px;
+}
+
+// footer
+
+.footer{
+    padding: 5px;
+    font-size: small;
+}

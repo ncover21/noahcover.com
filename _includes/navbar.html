@@ -1,0 +1,22 @@
+<div class="navbar container">
+    <header class="masthead">
+	  
+        <h3 class="masthead-title">
+          <a href="{{ site.url }}{{ site.baseurl}}">{{ site.title }}</a>
+        </h3>
+
+        <div class="navigation">
+            <ul id="navlist" class="alignable pull-right navbar-ul">
+                {% for x in site.navbar %}
+                <li class="alignable pull-left navbar-list">
+                    <a href="{{ site.url }}{{ site.baseurl}}/{{ x.link }}">{{ x.name }}</a>
+                    {% if forloop.last == false %}/{% endif %}
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </header>
+</div>
+<div style="clear:both"></div>
+
+<hr>

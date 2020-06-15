@@ -1,0 +1,83 @@
+# Setup
+title: Noah Cover
+author: ncover21
+subtitle: personal blog by noah cover
+#environment: production
+#paginate: 1
+url: "https://noahcover.com"
+baseurl: ""
+permalink: :title/
+
+kramdown:
+    footnote_backlink: "&#10548;"
+
+# Gems
+plugins:
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - jekyll-target-blank
+
+# Optimize Jekyll
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+sass:
+  sass_dir: _sass
+  style: :compressed
+
+# Options
+
+# Replace this value and uncomment to enable Google Analytics tracking
+# ga_analytics: UA-000000-0
+
+# Specify the author for blog posts
+author:
+  name: Noah Cover
+  url: noahcover.com
+  email: ncover13@gmail.com
+
+github_link: "https://github.com/ncover21"
+linkedin_link: "https://www.linkedin.com/in/noah-cover-214946160/"
+facebook_link: "https://www.facebook.com/noah.cover.3"
+email_link: "mailto:ncover@ucsc.com"
+
+footer_url: "https://github.com/ncover21"
+footer_text: "github"
+
+#profile-picture: assets/profile.jpg
+#favicon_location: assets/favicon.ico
+#github_location: assets/github.png
+#linkedin_location: assets/linkedin.png
+#facebook_location: assets/fb.png
+#email_location: assets/email.png
+
+profile-picture: assets/profile.jpg
+favicon_location: assets/favicon.ico
+github_location: assets/GitHub-Mark-Light-64px.png
+linkedin_location: assets/linkedin-3-64.png
+facebook_location: assets/f_logo_RGB-White_100.png
+email_location: assets/mail_white.png
+
+
+
+permalink: /:month-:day-:year-:title/
+
+navbar:
+ - name: "Blog"
+   link: "blog"
+ - name: "About"
+   link: "index"
+ - name: "Resume"
+   link: "resume.pdf"
+
+# Custom vars
+version: 1.3.0
+github:
+  repo: https://github.com/ncover21/noahcover.com

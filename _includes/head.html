@@ -1,0 +1,33 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://noir.essentialenemy.com/assets/iMessage.png" />
+
+    <title>
+    {% if page.title == "Home" %}
+        {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+    {% else %}
+        {{ page.title }} &middot; {{ site.title }}
+    {% endif %}
+    </title>
+
+    <meta name="description" content="{{ desc }}">
+    <link href='https://fonts.googleapis.com/css?family=Inconsolata:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
+
+    <link rel="icon" type="image/ico" href="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}">
+    <link rel="shortcut-icon" type="image/ico" href="{{site.url}}{{ site.baseurl }}/{{site.favicon_location}}">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-126238967-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-126238967-2');
+    </script>
+
+
+    
+</head>
