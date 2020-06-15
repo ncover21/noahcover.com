@@ -1,0 +1,24 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Body	deploy.py	/^        Body='',$/;"	v
+Bucket	deploy.py	/^        Bucket=bucket,$/;"	v
+Key	deploy.py	/^        Key='\/'$/;"	v
+boto3	deploy.py	/^import boto3$/;"	i
+bucket	deploy.py	/^bucket = 'noahcover.com'$/;"	v
+bucketName	deploy.py	/^bucketName = s3.Bucket(bucket)$/;"	v
+client	deploy.py	/^client = boto3.client('s3')$/;"	v
+gtag	_includes/head.html	/^      function gtag(){dataLayer.push(arguments);}$/;"	f
+local_directory	deploy.py	/^local_directory = '_site\/'$/;"	v
+local_path	deploy.py	/^    local_path = os.path.join(root, filename)$/;"	v
+os	deploy.py	/^import os$/;"	i
+path	deploy.py	/^path = ".\/"$/;"	v
+relative_path	deploy.py	/^    relative_path = os.path.relpath(local_path, local_directory)$/;"	v
+s3	deploy.py	/^s3 = boto3.resource('s3')$/;"	v
+s3_path	deploy.py	/^    s3_path = relative_path  #os.path.join(destination, relative_path)$/;"	v
+sys	deploy.py	/^import sys$/;"	i
+{{ category_name | slugize }}	categories.html	/^    <a name="{{ category_name | slugize }}"><\/a>$/;"	a
+{{ tag_name | slugize }}	backup/tags.html	/^    <a name="{{ tag_name | slugize }}"><\/a>$/;"	a
